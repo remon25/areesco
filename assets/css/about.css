@@ -1,0 +1,370 @@
+@font-face {
+  font-family: "Tajwal light";
+  src: url("../fonts/Tajawal-Light.ttf");
+}
+@font-face {
+  font-family: "Tajwal medium";
+  src: url("../fonts/Tajawal-Medium.ttf");
+}
+@font-face {
+  font-family: "Segoe";
+  src: url("../fonts/segoesc.ttf");
+}
+[data-reveal] {
+  transform: translateY(50px);
+  opacity: 0;
+  transition: 0.7s all ease var(--delay);
+}
+
+[data-reveal=left] {
+  transform: translate(-50px, 0);
+}
+
+[data-reveal=right] {
+  transform: translate(50px, 0);
+}
+
+[data-reveal].revealed {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+  width: 0.6rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  background-color: hsl(207, 4%, 75%);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(207, 4%, 65%);
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(207, 4%, 55%);
+}
+
+.about_hero {
+  position: relative;
+  min-height: 100vh;
+  background-image: url("../images/about/Layeronee.png");
+  background-size: cover;
+  overflow: hidden;
+}
+.about_hero img {
+  width: 500px;
+}
+
+.about_hero-header {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  padding-top: 10rem;
+  z-index: 2;
+}
+
+.hero_title {
+  font-size: 2.3rem;
+  font-family: "Segoe";
+  font-weight: bold;
+  color: #8f181f;
+  white-space: nowrap;
+}
+
+.line-before {
+  grid-column: 1/2;
+}
+
+.text_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  z-index: 2;
+}
+
+.hero_text {
+  color: #492700;
+  background-color: #fff;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Tajwal light";
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.about-vision {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15rem;
+}
+.about-vision::before {
+  content: "";
+  position: absolute;
+  top: -36%;
+  left: 0;
+  height: 800px;
+  width: 100%;
+  background-image: url("../images/about/visioneee.png");
+  background-size: cover;
+}
+
+.vision_description {
+  position: relative;
+  max-width: 600px;
+  z-index: 3;
+}
+
+.vision_description-header {
+  font-size: 3.5rem;
+  font-family: "Segoe";
+  font-weight: bold;
+  color: #8f181f;
+  white-space: nowrap;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.vision_description-text {
+  color: #000000;
+  text-shadow: 0 0 black;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Tajwal light";
+  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.about-mission {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20rem;
+}
+.about-mission::before {
+  content: "";
+  position: absolute;
+  top: -35%;
+  right: 0;
+  height: 753px;
+  width: 100%;
+  background-image: url("../images/about/misioneee.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.mission_description {
+  position: relative;
+  max-width: 600px;
+  z-index: 3;
+  margin-top: 2rem;
+}
+
+.mission_description-header {
+  font-size: 3.5rem;
+  font-family: "Segoe";
+  font-weight: bold;
+  color: #8f181f;
+  white-space: nowrap;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.mission_description-text {
+  color: #000000;
+  text-shadow: 0 0 black;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Tajwal light";
+  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.about-core {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+.about-core::before {
+  content: "";
+  position: absolute;
+  top: -35%;
+  left: 0;
+  height: 650px;
+  width: 100%;
+  background-image: url("../images/about/coreee.png");
+  background-size: cover;
+}
+
+.core_description {
+  position: relative;
+  max-width: 600px;
+  z-index: 3;
+}
+
+.core_description-header {
+  font-size: 3.5rem;
+  font-family: "Segoe";
+  font-weight: bold;
+  color: #8f181f;
+  white-space: nowrap;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.core_description-text {
+  color: #000000;
+  text-shadow: 0 0 black;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Tajwal light";
+  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.arabic :is(h1, h2, h3, h4, button, a) {
+  font-family: "Tajawal medium";
+}
+
+.arabic p {
+  font-family: "Tajawal light";
+}
+
+.arabic h1 {
+  font-size: 5rem;
+}
+
+.arabic .hero_title h1 {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.arabic :is(.about-mission, .about-core, .about-vision) p {
+  direction: rtl;
+  text-align: justify;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .hero_title {
+    font-size: 4vw;
+  }
+  .about_hero img {
+    width: 31vw;
+  }
+  .about-vision::before {
+    width: 100%;
+  }
+  .mission_description {
+    margin-top: 5rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  .hero_text {
+    font-size: 2.8vw;
+  }
+  .about-vision::before {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .about-mission, .about-core {
+    justify-content: center;
+  }
+  .mission_description {
+    margin-top: 6rem;
+  }
+  .about-vision::before {
+    background-size: cover;
+  }
+  .vision_description-header, .mission_description-header, .core_description-header {
+    font-size: 8vw;
+  }
+  .vision_description-text, .mission_description-text, .core_description-text {
+    font-size: 4.5vw;
+    line-height: 1.7;
+  }
+  .about-core::before {
+    height: 900px;
+  }
+  .arabic .hero_title h1 {
+    font-size: 8vw;
+  }
+  .arabic :is(.vision_description-header, .mission_description-header, .core_description-header) {
+    font-size: 11vw;
+  }
+  .arabic .mission_description {
+    margin-top: 4rem;
+  }
+}
+@media screen and (max-width: 496px) {
+  .about-vision, .about-mission, .about-core {
+    justify-content: center;
+  }
+  .hero_text {
+    font-size: 4.3vw;
+    width: 71vw;
+    padding: 0.5rem;
+  }
+  .vision_description-text, .mission_description-text, .core_description-text {
+    font-size: 6vw;
+    width: 90vw;
+    line-height: 1.8;
+  }
+  .about-core::before {
+    height: 980px;
+  }
+  .arabic {
+    overflow-x: hidden;
+  }
+}
+@media screen and (min-width: 717px) and (max-width: 766px) {
+  .mission_description {
+    margin-top: 0;
+  }
+}/*# sourceMappingURL=about.css.map */

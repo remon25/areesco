@@ -1,0 +1,224 @@
+@font-face {
+  font-family: "Tajwal light";
+  src: url("../fonts/Tajawal-Light.ttf");
+}
+@font-face {
+  font-family: "Tajwal medium";
+  src: url("../fonts/Tajawal-Medium.ttf");
+}
+@font-face {
+  font-family: "Segoe";
+  src: url("../fonts/segoesc.ttf");
+}
+[data-reveal] {
+  transform: translateY(50px);
+  opacity: 0;
+  transition: 0.7s all ease var(--delay);
+}
+
+[data-reveal=left] {
+  transform: translate(-50px, 0);
+}
+
+[data-reveal=right] {
+  transform: translate(50px, 0);
+}
+
+[data-reveal].revealed {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+  width: 0.6rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  background-color: hsl(207, 4%, 75%);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(207, 4%, 65%);
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(207, 4%, 55%);
+}
+
+body {
+  background-color: #e6e5e5;
+}
+
+.brand {
+  position: relative;
+  overflow: hidden;
+}
+.brand .layer {
+  position: absolute;
+}
+.brand .layer:nth-child(1) {
+  width: 300px;
+  top: 40%;
+  right: -10%;
+}
+.brand .layer:nth-child(2) {
+  width: 250px;
+  top: 50%;
+  left: -10%;
+}
+.brand .layer:nth-child(3) {
+  width: 300px;
+  top: 80%;
+  right: -10%;
+}
+
+.brand-logo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.brand-logo::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  background-image: linear-gradient(180deg, transparent, #e6e5e5);
+}
+.brand-logo img {
+  width: 100%;
+}
+
+.brand-header {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  padding-top: 10rem;
+  z-index: 2;
+  overflow: hidden;
+}
+.brand-header img {
+  width: 450px;
+}
+
+.brand_title {
+  font-size: 2.3rem;
+  font-family: "Segoe";
+  font-weight: bold;
+  color: #8f181f;
+  white-space: nowrap;
+}
+
+.line-before {
+  grid-column: 1/2;
+}
+
+.brand-products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  margin-top: 7rem;
+  margin-bottom: 20rem;
+  font-family: "Tajwal medium";
+}
+.brand-products img {
+  width: 250px;
+  margin-bottom: 2rem;
+}
+
+.product {
+  text-align: center;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  padding: 1rem 0.5rem;
+}
+
+.download {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.download a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #2d4799;
+  padding: 1rem;
+  font-family: "Tajwal medium";
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .brand-header img {
+    width: 29vw;
+  }
+  .brand_title {
+    font-size: 3.2vw;
+  }
+  .brand .layer:nth-child(1) {
+    width: 24vw;
+    top: 30%;
+  }
+  .brand .layer:nth-child(2) {
+    width: 18vw;
+  }
+  .brand .layer:nth-child(3) {
+    width: 20vw;
+  }
+}
+@media screen and (max-width: 991px) {
+  .brand .layer:nth-child(1) {
+    width: 20vw;
+    top: 30%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .brand-products {
+    grid-template-columns: 1fr;
+  }
+  .brand .layer:nth-child(1) {
+    width: 30vw;
+  }
+  .brand .layer:nth-child(2) {
+    width: 25vw;
+  }
+  .brand .layer:nth-child(3) {
+    width: 25vw;
+  }
+  .brand-products {
+    margin-bottom: 10rem;
+  }
+}
+@media screen and (max-width: 496px) {
+  .brand .layer:nth-child(3) {
+    top: 85%;
+  }
+  .brand-products img {
+    width: 60vw;
+  }
+  .brand-header img {
+    width: 25vw;
+  }
+  .brand_title {
+    font-size: 3.8vw;
+  }
+}/*# sourceMappingURL=brands.css.map */
