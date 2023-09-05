@@ -166,7 +166,7 @@
       </div>
       <div class="about_content">
         <img data-reveal="left" style="--delay:0.1s" src="./assets/images/about.png" class="about_image" alt="about" />
-        <div data-reveal="right" style="--delay:0.1s" class="about_content-text">
+        <div data-reveal style="--delay:0.1s" class="about_content-text">
           <p>
             Arees Advanced Co. established in Jeddah, Saudi Arabia, in 2022.
             Arees is the distributor of several high-quality brands in
@@ -213,7 +213,7 @@
           </div>
         </a>
       </div>
-      <img data-reveal="right" style="--delay:0.4s" src="./assets/images/cofee.png" class="brands-after">
+      <img data-reveal style="--delay:0.4s" src="./assets/images/cofee.png" class="brands-after">
     </section>
 
     <!---------- C O N T A C T  U S    S E C T I O N ---------->
@@ -261,7 +261,7 @@
           </form>
         </div>
 
-        <div class="contact_links" data-reveal="right" style="--delay:0.2s">
+        <div class="contact_links" style="--delay:0.2s">
           <div class="links_logo">
             <img src="./assets/images/Logo.png" alt="logo" />
           </div>
@@ -331,6 +331,7 @@ loadingTime();
 
 function anime(){
   setTimeout(scrollReveal,3500)
+
  
 }
 
@@ -357,7 +358,8 @@ let imgArray = [" url('./assets/images/hero_one.jpg')"," url('./assets/images/he
 setInterval(()=>{
 
   myhero.style.backgroundImage = imgArray[Math.floor(Math.random() * 3)];
-},3000)
+},3000);
+
     </script>
   </body>
 

@@ -525,6 +525,7 @@ body {
   padding: 10rem;
   margin-top: 5rem;
   position: relative;
+  overflow-x: hidden;
 }
 .brands h1 {
   font-family: "Segoe";

@@ -10,6 +10,7 @@ $text-color: #6f3f00;
 body {
   background-color: $main-background;
   overflow-x: hidden;
+
 }
 
 /* L O A D I N G   P A G E */
@@ -579,6 +580,7 @@ body {
   padding: 10rem;
   margin-top: 5rem;
   position: relative;
+  overflow-x: hidden;
   h1 {
     font-family: "Segoe";
     font-size: 3rem;
