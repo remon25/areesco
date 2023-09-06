@@ -182,6 +182,14 @@
     transform: rotate(-45deg);
   }
 }
+.lang {
+  margin-left: 4rem;
+}
+.lang a.active {
+  pointer-events: none;
+  color: #000;
+}
+
 @media screen and (max-width: 767px) {
   .logo {
     width: 70px;

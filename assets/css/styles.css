@@ -182,6 +182,14 @@
     transform: rotate(-45deg);
   }
 }
+.lang {
+  margin-left: 4rem;
+}
+.lang a.active {
+  pointer-events: none;
+  color: #000;
+}
+
 @media screen and (max-width: 767px) {
   .logo {
     width: 70px;
@@ -362,14 +370,6 @@ body {
 }
 
 /* H E R O    S E C T I O N */
-.lang {
-  margin-left: 4rem;
-}
-.lang a.active {
-  pointer-events: none;
-  color: #000;
-}
-
 .hero .hero-container {
   width: 100%;
   height: 100vh;
@@ -761,7 +761,7 @@ body {
     height: 270px;
   }
   .contact {
-    padding: 10rem 3rem 2rem;
+    padding: 3rem 3rem 2rem;
   }
   .links_logo {
     width: 15vw;

@@ -188,6 +188,15 @@
     }
   }
 
+  .lang {
+    margin-left: 4rem;
+  
+    a.active {
+      pointer-events: none;
+      color: #000;
+    }
+  }
+
   @media screen and (max-width:767px) {
 
     .logo{
