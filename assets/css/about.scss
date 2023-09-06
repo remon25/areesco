@@ -1,16 +1,14 @@
 @use "./fonts";
+@use "./vars";
 @use "./anime";
+
 
 $main-background: #e6e5e5;
 $title-color: #8f181f;
 $button-color: #2d4799;
 $text-color: #6f3f00;
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+
 body{
   overflow-x: hidden;
 }

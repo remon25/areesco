@@ -16,3 +16,16 @@ const scrollReveal = function () {
 };
 
 window.addEventListener("scroll", scrollReveal);
+
+
+/*=============== CHANGE BACKGROUND HEADER ===============*/
+
+const scrollHead = () => {
+  const header = document.getElementById("nav");
+
+  // When the scroll is greater than 50 viewport height, add the scroll-header class to the header tag
+  this.scrollY >= 50
+    ? header.classList.add("bg-header")
+    : header.classList.remove("bg-header");
+};
+window.addEventListener("scroll", scrollHead);

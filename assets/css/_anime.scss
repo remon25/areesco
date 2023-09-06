@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 [data-reveal] {
     transform: translateY(50px);
     opacity: 0;

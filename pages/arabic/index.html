@@ -114,11 +114,11 @@
             <a class="active" href="#">AR</a>
           </li>
           <li data-reveal style="--delay:0.25s"><a href="#">الرئيسية</a></li>
-          <li data-reveal style="--delay:0.3s"><a href="#">منتجاتنا</a></li>
+          <li data-reveal style="--delay:0.3s"><a href="#brands">منتجاتنا</a></li>
           <li data-reveal style="--delay:0.35s"><a href="./about.html">عن الشركة</a></li>
-          <li data-reveal style="--delay:0.4s"><a href="#">التواصل</a></li>
+          <li data-reveal style="--delay:0.4s"><a href="#contact">التواصل</a></li>
         </ul>
-        <img data-reveal style="--delay:0.44s" src="../../assets/images/Logo.png" alt="logo" class="logo" />
+        <img data-reveal style="--delay:0.44s" src="../../assets/images/arees logo.svg" alt="logo" class="logo" />
       </div>
     </nav>
     <!---------- H E R O   S E C T I O N ---------->
@@ -187,7 +187,7 @@
 
     <!---------- B R A N D S    S E C T I O N ---------->
 
-    <section class="brands">
+    <section class="brands" id="brands">
       <div data-reveal style="--delay:0.2s" class="header">
         <h1 style="font-family: 'Tajwal medium';"> العلامات التجارية</h1>
       </div>
@@ -226,7 +226,7 @@
 
     <!---------- C O N T A C T  U S    S E C T I O N ---------->
 
-    <section class="contact" style="direction: rtl;">
+    <section class="contact" style="direction: rtl;" id="contact">
       <div data-reveal style="--delay:0.2s" class="header"><h1 style="font-family: 'Tajwal medium';">تواصل معنا</h1></div>
       <div class="contact_container">
         <div class="contact_form-container">
@@ -347,17 +347,6 @@
 }
 
 anime();
-      /*=============== CHANGE BACKGROUND HEADER ===============*/
-
-      const scrollHead = () => {
-        const header = document.getElementById("nav");
-
-        // When the scroll is greater than 50 viewport height, add the scroll-header class to the header tag
-        this.scrollY >= 50
-          ? header.classList.add("bg-header")
-          : header.classList.remove("bg-header");
-      };
-      window.addEventListener("scroll", scrollHead);
 
       /*=============== CHANGE BACKGROUND HERO ===============*/
 
