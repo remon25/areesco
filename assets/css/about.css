@@ -178,6 +178,11 @@
     transform: rotate(-45deg);
   }
 }
+@media screen and (max-width: 767px) {
+  .logo {
+    width: 70px;
+  }
+}
 @media (max-width: 500px) {
   .navbar-container input[type=checkbox]:checked ~ .logo {
     display: none;
