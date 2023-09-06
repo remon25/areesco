@@ -648,7 +648,7 @@ body {
 .contact .contact_links {
   display: flex;
   flex-direction: column;
-  row-gap: 5rem;
+  row-gap: 3rem;
   justify-content: center;
   align-items: center;
 }
@@ -679,6 +679,10 @@ body {
 }
 .contact .link_image {
   width: 20px;
+}
+
+.links_logo img {
+  width: 200px;
 }
 
 .arabic .row-two h1 {
