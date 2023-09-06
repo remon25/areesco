@@ -2,10 +2,18 @@
     font-family: 'Tajwal light';
     src: url('../fonts/Tajawal-Light.ttf');
 }
+
 @font-face {
-    font-family: 'Tajwal medium';
-    src: url('../fonts/Tajawal-Medium.woff');
+    font-family: 'Tajawal medium';
+    src: url('../fonts/Tajawal-Medium.eot');
+    src: url('../fonts/Tajawal-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Tajawal-Medium.woff2') format('woff2'),
+        url('../fonts/Tajawal-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
+
 @font-face {
     font-family: 'Segoe';
     src: url('../fonts/segoesc.ttf');
