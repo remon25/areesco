@@ -75,6 +75,10 @@
   .navbar a:hover {
     color: #000;
   }
+
+  .arabic .menu-items {
+    direction: rtl;
+  }
   
   @media (max-width: 768px) {
     .navbar {
@@ -188,6 +192,16 @@
 
     .logo{
         width: 70px;
+      }
+      .navbar .menu-items li a,.navbar .menu-items li{
+        color: #4d4c4c;
+      }
+    
+      .navbar .menu-items li a:hover{
+        color:#000 ;
+      }
+      .arabic .navbar .menu-items{
+        align-items: center;
       }
     
   }

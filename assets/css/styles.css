@@ -87,6 +87,10 @@
   color: #000;
 }
 
+.arabic .menu-items {
+  direction: rtl;
+}
+
 @media (max-width: 768px) {
   .navbar {
     opacity: 0.95;
@@ -181,6 +185,15 @@
 @media screen and (max-width: 767px) {
   .logo {
     width: 70px;
+  }
+  .navbar .menu-items li a, .navbar .menu-items li {
+    color: #4d4c4c;
+  }
+  .navbar .menu-items li a:hover {
+    color: #000;
+  }
+  .arabic .navbar .menu-items {
+    align-items: center;
   }
 }
 @media (max-width: 500px) {
@@ -673,10 +686,6 @@ body {
   font-family: "Tajawal medium";
 }
 
-.arabic .menu-items {
-  direction: rtl;
-}
-
 .arabic :is(h1, h2, h3, h4, button, a) {
   font-family: "Tajawal medium" !important;
 }
@@ -765,12 +774,6 @@ body {
   }
 }
 @media screen and (max-width: 767px) {
-  .navbar .menu-items li a, .navbar .menu-items li {
-    color: #4d4c4c;
-  }
-  .navbar .menu-items li a:hover {
-    color: #000;
-  }
   .hero .hero-container .hero-one {
     grid-column: 1/5;
   }
@@ -811,9 +814,6 @@ body {
   .contact .links {
     grid-template-columns: repeat(2, 1fr);
     margin-left: 2rem;
-  }
-  .arabic .navbar .menu-items {
-    align-items: center;
   }
   .arabic .contact .links h4 {
     white-space: wrap;
