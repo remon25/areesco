@@ -1,2 +1,22 @@
+@font-face {
+    font-family: 'Tajawal';
+    src: url('Tajawal-Medium.eot');
+    src: url('Tajawal-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Tajawal-Medium.woff2') format('woff2'),
+        url('Tajawal-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 
+@font-face {
+    font-family: 'Tajawal';
+    src: url('Tajawal-Light.eot');
+    src: url('Tajawal-Light.eot?#iefix') format('embedded-opentype'),
+        url('Tajawal-Light.woff2') format('woff2'),
+        url('Tajawal-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
 

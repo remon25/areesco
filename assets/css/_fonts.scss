@@ -1,6 +1,12 @@
 @font-face {
-    font-family: 'Tajwal light';
-    src: url('../fonts/Tajawal-Light.ttf');
+    font-family: 'Tajawal light';
+    src: url('../fonts/Tajawal-Light.eot');
+    src: url('../fonts/Tajawal-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Tajawal-Light.woff2') format('woff2'),
+        url('../fonts/Tajawal-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {

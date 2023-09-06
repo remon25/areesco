@@ -1,10 +1,18 @@
 @font-face {
-  font-family: "Tajwal light";
-  src: url("../fonts/Tajawal-Light.ttf");
+  font-family: "Tajawal light";
+  src: url("../fonts/Tajawal-Light.eot");
+  src: url("../fonts/Tajawal-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Tajawal-Light.woff2") format("woff2"), url("../fonts/Tajawal-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
-  font-family: "Tajwal medium";
-  src: url("../fonts/Tajawal-Medium.woff");
+  font-family: "Tajawal medium";
+  src: url("../fonts/Tajawal-Medium.eot");
+  src: url("../fonts/Tajawal-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Tajawal-Medium.woff2") format("woff2"), url("../fonts/Tajawal-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Segoe";
@@ -135,7 +143,7 @@ body {
   place-items: center;
   margin-top: 7rem;
   margin-bottom: 20rem;
-  font-family: "Tajwal medium";
+  font-family: "Tajawal medium";
 }
 .brand-products img {
   width: 250px;
@@ -162,7 +170,7 @@ body {
   color: #fff;
   background-color: #2d4799;
   padding: 1rem;
-  font-family: "Tajwal medium";
+  font-family: "Tajawal medium";
   letter-spacing: 2px;
   margin-bottom: 2rem;
 }

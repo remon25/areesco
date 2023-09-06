@@ -1,10 +1,18 @@
 @font-face {
-  font-family: "Tajwal light";
-  src: url("../fonts/Tajawal-Light.ttf");
+  font-family: "Tajawal light";
+  src: url("../fonts/Tajawal-Light.eot");
+  src: url("../fonts/Tajawal-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Tajawal-Light.woff2") format("woff2"), url("../fonts/Tajawal-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
-  font-family: "Tajwal medium";
-  src: url("../fonts/Tajawal-Medium.woff");
+  font-family: "Tajawal medium";
+  src: url("../fonts/Tajawal-Medium.eot");
+  src: url("../fonts/Tajawal-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Tajawal-Medium.woff2") format("woff2"), url("../fonts/Tajawal-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Segoe";
@@ -111,7 +119,7 @@ body {
   background-color: #fff;
   width: -moz-fit-content;
   width: fit-content;
-  font-family: "Tajwal light";
+  font-family: "Tajawal light";
   font-weight: 600;
   font-size: 1.4rem;
 }
@@ -165,7 +173,7 @@ body {
   text-shadow: 0 0 black;
   width: -moz-fit-content;
   width: fit-content;
-  font-family: "Tajwal light";
+  font-family: "Tajawal light";
   font-weight: 600;
   font-size: 2rem;
   font-weight: 300;
@@ -213,7 +221,7 @@ body {
   text-shadow: 0 0 black;
   width: -moz-fit-content;
   width: fit-content;
-  font-family: "Tajwal light";
+  font-family: "Tajawal light";
   font-weight: 600;
   font-size: 2rem;
   font-weight: 300;
@@ -258,7 +266,7 @@ body {
   text-shadow: 0 0 black;
   width: -moz-fit-content;
   width: fit-content;
-  font-family: "Tajwal light";
+  font-family: "Tajawal light";
   font-weight: 600;
   font-size: 2rem;
   font-weight: 300;

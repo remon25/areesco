@@ -1,10 +1,18 @@
 @font-face {
-  font-family: "Tajwal light";
-  src: url("../fonts/Tajawal-Light.ttf");
+  font-family: "Tajawal light";
+  src: url("../fonts/Tajawal-Light.eot");
+  src: url("../fonts/Tajawal-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Tajawal-Light.woff2") format("woff2"), url("../fonts/Tajawal-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
-  font-family: "Tajwal medium";
-  src: url("../fonts/Tajawal-Medium.woff");
+  font-family: "Tajawal medium";
+  src: url("../fonts/Tajawal-Medium.eot");
+  src: url("../fonts/Tajawal-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Tajawal-Medium.woff2") format("woff2"), url("../fonts/Tajawal-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Segoe";
@@ -165,7 +173,7 @@ body {
   width: 100%;
   color: #fff;
   z-index: 100;
-  font-family: "Tajwal medium";
+  font-family: "Tajawal medium";
   transition: all 0.2s ease-in-out;
 }
 .navbar .container {
@@ -441,7 +449,7 @@ body {
   color: #8f181f;
 }
 .hero .hero-container .hero-two .row-two p {
-  font-family: "Tajwal medium";
+  font-family: "Tajawal medium";
   font-size: 1.5rem;
   color: #fff;
   max-width: 500px;
@@ -484,7 +492,7 @@ body {
   margin-bottom: 3rem;
 }
 .about p {
-  font-family: "Tajwal light";
+  font-family: "Tajawal light";
   font-size: 1.8rem;
   color: #6f3f00;
   width: 500px;
@@ -572,7 +580,7 @@ body {
   align-items: center;
   gap: 2rem;
   margin-top: 4rem;
-  font-family: "Tajwal medium";
+  font-family: "Tajawal medium";
 }
 .contact .contact_form-header {
   text-align: center;
