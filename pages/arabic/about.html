@@ -12,28 +12,36 @@
     <title>عن أريس</title>
   </head>
   <body class="arabic">
-        <!---------- N A V  B A R ---------->
-        <nav class="navbar" id="nav">
-          <div class="navbar-container container">
-            <input type="checkbox" name="" id="" />
-            <div class="hamburger-lines">
-              <span class="line line1"></span>
-              <span class="line line2"></span>
-              <span class="line line3"></span>
-            </div>
-            <ul class="menu-items" style="direction: ltr;">
-              <li data-reveal style="--delay:0.2s"><a href="./index.html">Home</a></li>
-              <li data-reveal style="--delay:0.25s"><a href="../brand-prestige.html">Prestige</a></li>
-              <li data-reveal style="--delay:0.25s"><a href="../brand-rando.html">Rando</a></li>
-              <li data-reveal style="--delay:0.25s"><a href="../brand-jojo.html">jojo jelly</a></li>
-              <li class="lang" data-reveal style="--delay:0.4s">
-                <a href="../about.html">EN</a> / <a class="active" href="#">AR</a>
-              </li>
-            </ul>
-            <img data-reveal style="--delay:0.44s" src="../../assets/images/arees logo.svg" alt="logo" class="logo" />
-          </div>
-        </nav>
-  
+    <!---------- N A V  B A R ---------->
+    <nav class="navbar" id="nav">
+      <div class="navbar-container container">
+        <input type="checkbox" name="" id="" />
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+        <ul class="menu-items" style="direction: rtl">
+          <li data-reveal style="--delay:0.2s" class="lang">
+            <a href="../about.html">EN</a> /
+            <a class="active" href="#">AR</a>
+          </li>
+          <li data-reveal style="--delay:0.25s"><a href="./index.html">الرئيسية</a></li>
+          <li data-reveal style="--delay:0.3s"><a href="./index.html#brands">منتجاتنا</a></li>
+          <li data-reveal style="--delay:0.4s"><a href="./index.html#brands#contact">التواصل</a></li>
+        </ul>
+        <a href="./index.html">
+          <img
+            data-reveal
+            style="--delay: 0.44s"
+            src="../../assets/images/arees logo.svg"
+            alt="logo"
+            class="logo"
+          />
+        </a>
+      </div>
+    </nav>
+
     <section class="about_page" id="about-page">
       <div class="about_hero">
         <div class="about_hero-header">
@@ -41,28 +49,35 @@
             <img src="../../assets/images/about/left-line.png" />
           </div>
 
-          <div data-reveal class="hero_title" style="--delay:0.2s" class="hero_title"><h1>عن أريس</h1></div>
+          <div
+            data-reveal
+            class="hero_title"
+            style="--delay: 0.2s"
+            class="hero_title"
+          >
+            <h1>عن أريس</h1>
+          </div>
 
           <div class="line-after">
             <img src="../../assets/images/about/right-line.png" />
           </div>
         </div>
         <div class="text_container" style="direction: rtl">
-          <p data-reveal style="--delay:0.2s" class="hero_text">
-            تأسست شركة أريس المتطورة في جدة، المملكة العربية السعودية، عام 2022.
+          <p data-reveal style="--delay: 0.2s" class="hero_text">
+            تأسست شركة أريس المتطورة في جدة، المملكة العربية السعودية .
           </p>
-          <p data-reveal style="--delay:0.3s" class="hero_text">
+          <p data-reveal style="--delay: 0.3s" class="hero_text">
             وتعد موزعا للعديد من العلامات التجارية عالية الجودة في الشوكولاتة
             والحلويات
           </p>
-          <p data-reveal style="--delay:0.4s" class="hero_text">
+          <p data-reveal style="--delay: 0.4s" class="hero_text">
             والبسكويت إلى جانب مجموعة واسعة من العلامات التجارية العالمية.
           </p>
         </div>
       </div>
 
       <div class="about-vision">
-        <div class="vision_description" data-reveal style="--delay:0.2s">
+        <div class="vision_description" data-reveal style="--delay: 0.2s">
           <h1 class="vision_description-header">الرؤية</h1>
           <p class="vision_description-text">
             نحن في أريس المتطورة نتطلع إلى أن نصبح الشركة الرائدة في السوق في
@@ -74,7 +89,11 @@
       </div>
 
       <div class="about-mission">
-        <div class="mission_description" data-reveal="left" style="--delay:0.2s">
+        <div
+          class="mission_description"
+          data-reveal="left"
+          style="--delay: 0.2s"
+        >
           <h1 class="mission_description-header">الرسالة</h1>
           <p class="mission_description-text">
             مهمتنا في أريس هي المشاركة في رفع مستوى الرفاهية بحيث يستطيع كل فرد
@@ -85,7 +104,7 @@
       </div>
 
       <div class="about-core">
-        <div class="core_description" data-reveal style="--delay:0.2s">
+        <div class="core_description" data-reveal style="--delay: 0.2s">
           <h1 class="core_description-header">القيم الأساسية</h1>
           <p class="core_description-text">
             نحن ملتزمون بمسؤولية إدارة أعمالنا بأكثر طريقة أخلاقية إلى جانب
@@ -98,6 +117,8 @@
     </section>
 
     <script src="../../assets/js/main.js"></script>
-    <script>scrollReveal()</script>
+    <script>
+      scrollReveal();
+    </script>
   </body>
 </html>

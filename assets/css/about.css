@@ -67,7 +67,8 @@
 
 .logo {
   order: 1;
-  width: 100px;
+  width: 90px;
+  padding: 0.25rem;
 }
 
 .menu-items li {
@@ -165,7 +166,7 @@
   }
   .logo {
     position: absolute;
-    top: 10px;
+    top: 5px;
     right: 15px;
     font-size: 2.5rem;
   }
@@ -478,6 +479,7 @@ body {
 .arabic .hero_title h1 {
   background-color: #f2f2f2;
   text-align: center;
+  padding: 0.25rem;
 }
 
 .arabic :is(.about-mission, .about-core, .about-vision) p {
@@ -507,6 +509,9 @@ body {
   }
   .about-vision::before {
     width: 100%;
+  }
+  .about-mission::before {
+    opacity: 0.4;
   }
 }
 @media screen and (max-width: 767px) {
@@ -544,13 +549,21 @@ body {
     justify-content: center;
   }
   .hero_text {
-    font-size: 4.3vw;
+    font-size: 3.5vw;
     width: 71vw;
     padding: 0.5rem;
+  }
+  .text_container {
+    margin-top: 1rem;
   }
   .vision_description-text, .mission_description-text, .core_description-text {
     font-size: 6vw;
     width: 90vw;
+    line-height: 1.8;
+  }
+  .arabic .vision_description-text, .mission_description-text, .core_description-text {
+    font-size: 6vw;
+    width: 80vw;
     line-height: 1.8;
   }
   .about-core::before {

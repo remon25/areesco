@@ -206,7 +206,7 @@ body {
       width: 100%;
       height: 100%;
       background-image: url("../images/hero_one.jpg");
-      grid-column: 1/4;
+      grid-column: 1/5;
       transition: 1s all;
     }
     .hero-two {
@@ -286,12 +286,15 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        position: relative;
+        z-index: 2;
 
         h1 {
           font-size: 2.3rem;
           font-family: "Segoe";
           font-weight: bold;
           color: $title-color;
+          margin-bottom: 1rem;
         }
         p {
           font-family: "Tajawal medium";
@@ -299,6 +302,7 @@ body {
           color: #fff;
           max-width: 500px;
           text-align: center;
+
         }
         button {
           font-size: 1rem;
@@ -314,6 +318,10 @@ body {
       }
     }
   }
+}
+
+.arabic .hero .hero-container .hero-two .row-two p{
+  direction: rtl;
 }
 
 // <!---------- A B O U T    S E C T I O N ---------->

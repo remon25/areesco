@@ -35,6 +35,10 @@ body {
   background-color: $main-background;
 }
 
+.menu-items{
+  column-gap: 2rem !important;
+}
+
 .brand {
   position: relative;
   overflow: hidden;
@@ -143,6 +147,21 @@ body {
     letter-spacing: 2px;
     margin-bottom: 2rem;
   }
+}
+
+
+nav {
+  // box-shadow: 0 4px 20px hsla(207, 24%, 35%, .1);
+  box-shadow: 0px 5px 10px 0px #aaa;
+  background-image: radial-gradient(
+    circle,
+    #dec3c4,
+    #e0cbcc,
+    #e2d4d4,
+    #e4dcdd,
+    #e6e5e5
+  );
+  opacity: 0.9;
 }
 
 // media queries

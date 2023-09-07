@@ -67,7 +67,8 @@
 
 .logo {
   order: 1;
-  width: 100px;
+  width: 90px;
+  padding: 0.25rem;
 }
 
 .menu-items li {
@@ -165,7 +166,7 @@
   }
   .logo {
     position: absolute;
-    top: 10px;
+    top: 5px;
     right: 15px;
     font-size: 2.5rem;
   }
@@ -258,6 +259,11 @@ html {
 
 body {
   background-color: #e6e5e5;
+}
+
+.menu-items {
+  -moz-column-gap: 2rem !important;
+       column-gap: 2rem !important;
 }
 
 .brand {
@@ -362,6 +368,12 @@ body {
   font-family: "Tajawal medium";
   letter-spacing: 2px;
   margin-bottom: 2rem;
+}
+
+nav {
+  box-shadow: 0px 5px 10px 0px #aaa;
+  background-image: radial-gradient(circle, #dec3c4, #e0cbcc, #e2d4d4, #e4dcdd, #e6e5e5);
+  opacity: 0.9;
 }
 
 @media screen and (max-width: 1200px) {

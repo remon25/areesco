@@ -67,7 +67,8 @@
 
 .logo {
   order: 1;
-  width: 100px;
+  width: 90px;
+  padding: 0.25rem;
 }
 
 .menu-items li {
@@ -165,7 +166,7 @@
   }
   .logo {
     position: absolute;
-    top: 10px;
+    top: 5px;
     right: 15px;
     font-size: 2.5rem;
   }
@@ -386,7 +387,7 @@ body {
   width: 100%;
   height: 100%;
   background-image: url("../images/hero_one.jpg");
-  grid-column: 1/4;
+  grid-column: 1/5;
   transition: 1s all;
 }
 .hero .hero-container .hero-two {
@@ -463,12 +464,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  z-index: 2;
 }
 .hero .hero-container .hero-two .row-two h1 {
   font-size: 2.3rem;
   font-family: "Segoe";
   font-weight: bold;
   color: #8f181f;
+  margin-bottom: 1rem;
 }
 .hero .hero-container .hero-two .row-two p {
   font-family: "Tajawal medium";
@@ -487,6 +491,10 @@ body {
   border: none;
   margin-top: 1rem;
   cursor: pointer;
+}
+
+.arabic .hero .hero-container .hero-two .row-two p {
+  direction: rtl;
 }
 
 .about {
