@@ -53,6 +53,8 @@
     display: flex;
     column-gap: 3rem;
     padding: 5rem;
+    position: relative;
+    z-index: 1;
   }
   .logo {
     order: 1;
