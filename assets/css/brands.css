@@ -401,6 +401,11 @@ nav {
   }
 }
 @media screen and (max-width: 767px) {
+  nav {
+    box-shadow: none;
+    background-image: none;
+    opacity: 0.95;
+  }
   .brand-products {
     grid-template-columns: 1fr;
   }

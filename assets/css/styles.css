@@ -832,6 +832,13 @@ body {
   }
 }
 @media screen and (max-width: 496px) {
+  .loading svg {
+    width: 80vw;
+  }
+  svg.active {
+    transition: transform 0.7s ease-in-out 2.3s;
+    transform: translateY(50px) !important;
+  }
   .hero .hero-container .hero-two .row-one .col-one img:nth-child(1) {
     width: 110px;
   }

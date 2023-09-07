@@ -191,6 +191,12 @@ nav {
   }
 }
 @media screen and (max-width: 767px) {
+  nav {
+    // box-shadow: 0 4px 20px hsla(207, 24%, 35%, .1);
+    box-shadow: none;
+    background-image: none;
+    opacity: 0.95;
+  }
   .brand-products {
     grid-template-columns: 1fr;
   }
