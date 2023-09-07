@@ -875,6 +875,7 @@ body {
   .about p {
     width: 75vw;
     font-size: 5.5vw;
+    text-align: justify;
   }
   .about .about-before {
     bottom: -235px;

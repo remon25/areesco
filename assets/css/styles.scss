@@ -731,6 +731,7 @@ body {
 @media screen and (max-width: 496px) {
 
 
+
   .hero .hero-container .hero-two .row-one .col-one img:nth-child(1){
     width: 110px;
   }
@@ -783,6 +784,7 @@ body {
 .about p {
   width: 75vw;
   font-size: 5.5vw;
+  text-align: justify;
 }
 .about .about-before {
   bottom: -235px;
