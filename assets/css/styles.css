@@ -480,7 +480,7 @@ body {
   font-family: "Tajawal medium";
   font-size: 1.5rem;
   color: #fff;
-  max-width: 500px;
+  max-width: 450px;
   text-align: center;
 }
 .hero .hero-container .hero-two .row-two button {
@@ -908,5 +908,10 @@ body {
   .arabic .hero .hero-container .hero-two .row-two h1 {
     font-size: 7.5vw;
     margin-bottom: 2rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .about::after {
+    height: 230px;
   }
 }/*# sourceMappingURL=styles.css.map */

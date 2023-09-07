@@ -300,7 +300,7 @@ body {
           font-family: "Tajawal medium";
           font-size: 1.5rem;
           color: #fff;
-          max-width: 500px;
+          max-width: 450px;
           text-align: center;
 
         }
@@ -823,4 +823,12 @@ body {
 
 
 }
+
+
+@media screen and (min-width: 1400px) {
+  .about::after{
+    height: 230px;
+  }
+}
+
 
