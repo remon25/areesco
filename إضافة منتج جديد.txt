@@ -1,0 +1,73 @@
+
+
+إضافة منتج جديد جوجو جيللي 
+
+
+<!-- إضافة منتج جديد  -->
+
+<div class="product" data-reveal style="--delay:0.1s">
+          <img
+            style="height: 380px"
+            class="product_image"
+            src="../assets/images/brands/jojo jelly/8.png"
+            alt="product"
+          />
+          <p>
+            SOUR STICK<br />
+            Cola
+          </p>
+        </div>
+
+        <!-- النهاية  -->
+
+
+
+
+
+
+
+إضافة منتج جديد راندو  
+
+
+<!-- إضافة منتج جديد  -->
+
+<div class="product" data-reveal style="--delay:0.1s">
+          <img
+            style="height: 380px"
+            class="product_image"
+            src="../assets/images/brands/rando/8.png" 
+            alt="product"
+          />
+          <p>
+            SOUR STICK <br/>
+            Cola
+          </p>
+        </div>
+
+        <!-- النهاية  -->
+
+
+
+
+
+إضافة منتج جديد برستيج  
+
+
+<!-- إضافة منتج جديد  -->
+
+<div class="product" data-reveal style="--delay:0.1s">
+          <img
+            style="height: 380px"
+            class="product_image"
+            src="../assets/images/brands/prestige/8.png"
+            alt="product"
+          />
+          <p>
+            SOUR STICK<br />
+            Cola
+          </p>
+        </div>
+
+        <!-- النهاية  -->
+
+

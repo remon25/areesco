@@ -607,12 +607,13 @@ body {
   text-align: center;
 }
 .contact .contact_container {
+  font-family: "Tajawal medium";
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 2rem;
   margin-top: 4rem;
-  font-family: "Tajawal medium";
+  margin-bottom: 2rem;
 }
 .contact .contact_form-header {
   text-align: center;
@@ -912,6 +913,6 @@ body {
 }
 @media screen and (min-width: 1400px) {
   .about::after {
-    height: 230px;
+    height: 250px;
   }
 }/*# sourceMappingURL=styles.css.map */
