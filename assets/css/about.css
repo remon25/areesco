@@ -212,6 +212,11 @@
     display: none;
   }
 }
+@media screen and (min-width: 1500px) {
+  .navbar .container {
+    max-width: 1500px;
+  }
+}
 html {
   scroll-behavior: smooth;
 }

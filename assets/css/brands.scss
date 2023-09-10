@@ -246,3 +246,33 @@ body {
   }
   
 }
+
+@media screen and (min-width:1500px) {
+
+  .brand-header img{
+    width: 35vw;
+  }
+
+  .brand_title{
+    text-align: center;
+  }
+
+  .brand-products img{
+    width: 320px;
+  }
+
+  .brand .layer:nth-child(1){
+    width: 20vw;
+  }
+  .brand .layer:nth-child(2){
+    width: 19vw;
+  }
+
+   .brand.rando .layer:nth-child(1){
+    width: 13vw;
+    right: 0%;
+  }
+  .brand.rando .layer:nth-child(3){
+    width: 20vw;
+  }
+}
