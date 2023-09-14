@@ -271,7 +271,7 @@ body {
 .about_hero {
   position: relative;
   min-height: 100vh;
-  background-image: url("../images/about/Layeronee.png");
+  background-image: url("../images/about/Layerone.webp");
   background-size: cover;
   overflow: hidden;
 }
@@ -346,7 +346,7 @@ body {
   left: 0;
   height: 800px;
   width: 100%;
-  background-image: url("../images/about/visioneee.png");
+  background-image: url("../images/about/vision.webp");
   background-size: cover;
 }
 
@@ -392,7 +392,7 @@ body {
   right: 0;
   height: 753px;
   width: 100%;
-  background-image: url("../images/about/misioneee.png");
+  background-image: url("../images/about/mission.webp");
   background-size: cover;
   background-position: center;
 }
@@ -439,7 +439,7 @@ body {
   left: 0;
   height: 650px;
   width: 100%;
-  background-image: url("../images/about/coreee.png");
+  background-image: url("../images/about/core.webp");
   background-size: cover;
 }
 
